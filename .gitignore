@@ -1,0 +1,172 @@
+# Turnify - 2025 Mahin Ltd alright receipt
+# Complete Secure GitIgnore for Flask + Render + MongoDB + Custom HTML Tester
+
+# --------------------------------------
+# Python cache and bytecode files
+# --------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --------------------------------------
+# Virtual Environments (local only)
+# --------------------------------------
+env/
+venv/
+ENV/
+VENV/
+*.venv/
+.venv/
+pip-wheel-metadata/
+
+# --------------------------------------
+# Flask cache & build directories
+# --------------------------------------
+instance/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+.eggs-info/
+*.egg
+*.manifest
+*.spec
+
+# --------------------------------------
+# IDE / Editor Configurations
+# --------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# --------------------------------------
+# OS / System generated files
+# --------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --------------------------------------
+# Logs and reports
+# --------------------------------------
+*.log
+*.tmp
+*.bak
+*.err
+*.pid
+*.csv
+error.log
+nohup.out
+
+# --------------------------------------
+# Environment Configurations
+# (.env must never be committed)
+# --------------------------------------
+.env
+.env.local
+.env.production
+.env.staging
+.env.*.local
+.env.bak
+.env.backup
+.env.example
+.credentials/
+secrets/
+token.json
+service_account.json
+
+# --------------------------------------
+# Security-sensitive files
+# --------------------------------------
+certs/
+private/
+config.ini
+config.yaml
+*.pem
+*.key
+*.crt
+*.csr
+id_rsa
+id_rsa.pub
+
+# --------------------------------------
+# Render / Deployment / Logs / Sessions
+# --------------------------------------
+__render__
+gunicorn.log
+*.pid
+*.sock
+*.db
+*.sqlite3
+*.sqlite
+*.session
+
+# --------------------------------------
+# Local HTML Testing & Mock Data
+# (Prevents test_dashboard.html or similar tools from publishing)
+# --------------------------------------
+test_dashboard.html
+*.html.bak
+*.html.old
+test_data/
+mock_responses/
+local_examples/
+demo_files/
+
+# --------------------------------------
+# Jupyter / Notebooks / temp analysis
+# --------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+*.jupyter
+
+# --------------------------------------
+# Temporary or debug files
+# --------------------------------------
+/.pytest_cache/
+.cache/
+.coverage
+.pytest_cache/
+*.cover
+*.coverage
+*.log.json
+debug.log
+profile.prof
+
+# --------------------------------------
+# Compressed archives
+# --------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.bak.zip
+*.backup/
+
+# --------------------------------------
+# Render Deployment Configs (optional)
+# Keep render.yaml tracked if used intentionally
+# --------------------------------------
+# render.yaml
+
+# ✅ Track headers_auth.json — keep this public for YTMusic authentication
+!headers_auth.json
